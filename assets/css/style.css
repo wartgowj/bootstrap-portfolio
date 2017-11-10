@@ -22,6 +22,7 @@ body {
 
 .navbar-fixed-top {
     background-color: gray;
+    border-bottom: 5px solid black;
 }
 
 .navbar-fixed-bottom {
@@ -30,6 +31,7 @@ body {
     background-color: gray;
     color: black;
     align-items: center;
+    border-top: 5px solid black;
 }
 
 textarea.form-control {
@@ -38,6 +40,31 @@ textarea.form-control {
 
 .caption {
     justify-content: center;
-    margin-top: -75px;
-    color: red !important;
+    margin-top: -30px;
+    color: black !important;
 }
+
+p {
+    margin-left: 10px;
+}
+
+.panel-body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.btn {
+    margin: 20px;
+    background-color: lightblue;
+    color: black;
+}
+
+.panel {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-left: 20px;
+}
+
