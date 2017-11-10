@@ -1,0 +1,43 @@
+.container {
+    border:0px solid red;
+    background-color: white;
+}
+
+.row div {
+    border:0px solid gray;
+}
+
+img {
+    margin-right: 20px;
+}
+
+body {
+    padding-top: 75px;
+    background-color: lightblue;
+    margin-bottom: 75px;
+}
+#navbar {
+    color: black;
+}
+
+.navbar-fixed-top {
+    background-color: gray;
+}
+
+.navbar-fixed-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: black;
+    align-items: center;
+}
+
+textarea.form-control {
+  height: 200px;
+}
+
+.caption {
+    justify-content: center;
+    margin-top: -75px;
+    color: red !important;
+}
